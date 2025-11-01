@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import os
 
 # Step 1: Input
-print("Please place your Excel file in the same folder as this script.")
-file_name = input("Enter your Excel file name (e.g., pharma_data.xlsx): ").strip()
+file_name = input("Please enter the main directory path: ").strip()
+
 
 # Step 2: Load File
 try:
